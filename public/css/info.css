@@ -1,0 +1,46 @@
+#info {
+	background: #FFFFFF;
+	color: #ccc;
+	text-align: center; 
+	font-family: open sans;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#info .contenedor {
+	display: flex;
+	display: inline-block;
+}
+
+.info-tec {
+	margin: 20px;
+	text-align: left;
+	display: inline-block;
+}
+
+.info-tec img {
+	width: 180px;
+	height: 180px;
+
+	
+	
+	
+	
+
+}
+@media (min-width: 480px){
+	.info-tec {
+		width: 40%;
+	}
+}
+@media (min-width: 480px){
+	.info-tec {
+		width: auto;
+	}
+
+
+
+
+
+
+

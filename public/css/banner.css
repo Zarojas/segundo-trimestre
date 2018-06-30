@@ -1,0 +1,42 @@
+#banner {
+	margin-top:50px;
+	position: relative;
+}
+
+#banner img {
+	width: 100%;
+	height: 100%;
+}
+
+#banner .contenedor {
+	position: absolute;
+	top:70%;
+	left: 70%;
+	transform: translateX(-50%) translateY(-48%);
+	color: #fff;
+	font-size: 35px;
+	font-family: open sans;
+}
+
+
+#banner a:hover {
+	background:#F2A1E5;
+}
+
+@media (min-width: 480px) {
+	#banner h2 {
+		font-size: 40px;
+	}
+
+	#banner a {
+		margin -top: 25px;
+	}
+}
+
+@media (min-width:1124px) {
+	#banner {
+		height: 600px;
+		overflow: hidden;
+	}
+
+
